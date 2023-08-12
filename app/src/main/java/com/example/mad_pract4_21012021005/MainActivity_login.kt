@@ -10,10 +10,11 @@ class MainActivity_login : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_login)
 
+
         val button_login=findViewById<Button>(R.id.button_login)
         button_login.setOnClickListener{
-            val intent3=Intent(this,MainActivity_register::class.java)
-            startActivity(intent3)
+            val intent6=Intent(this,MainActivity::class.java)
+            startActivity(intent6)
         }
     }
 }
